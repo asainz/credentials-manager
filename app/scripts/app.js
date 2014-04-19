@@ -8,6 +8,7 @@ var _mainModules = [
     ,'ngResource'
     ,'ngAnimate'
     ,'ngTouch'
+    ,'Dashboard'
     // yo:ngMainModules
 ];
 
@@ -21,6 +22,14 @@ angular.module('CredentialsManager', _mainModules )
 
         var routes = [];
 
+        routes.push({
+            name: '/dashboard',
+            params: {
+                templateUrl: 'scripts/dashboard/views/dashboard.html',
+                controller: 'DashboardCtrl'
+            }
+        });
+        
 // yo:ngRoutes
 
         routes.forEach(function(route){

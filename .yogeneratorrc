@@ -1,12 +1,27 @@
 {
-    "feature": [],
-    "controller": [],
-    "filter": [],
-    "directive": [],
-    "service": [],
-    "factory": [],
-    "provider": [],
-    "value": [],
-    "constant": [],
-    "view": []
+  "feature": [
+    {
+      "name": "Dashboard",
+      "value": "dashboard"
+    }
+  ],
+  "controller": [
+    {
+      "name": "Dashboard",
+      "value": "dashboard"
+    }
+  ],
+  "filter": [],
+  "directive": [],
+  "service": [],
+  "factory": [],
+  "provider": [],
+  "value": [],
+  "constant": [],
+  "view": [
+    {
+      "name": "Dashboard",
+      "value": "dashboard"
+    }
+  ]
 }
