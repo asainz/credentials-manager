@@ -9,6 +9,7 @@ var _mainModules = [
     ,'ngAnimate'
     ,'ngTouch'
     ,'Dashboard'
+    ,'Search'
     // yo:ngMainModules
 ];
 
@@ -27,6 +28,14 @@ angular.module('CredentialsManager', _mainModules )
             params: {
                 templateUrl: 'scripts/dashboard/views/dashboard.html',
                 controller: 'DashboardCtrl'
+            }
+        });
+        
+        routes.push({
+            name: '/search',
+            params: {
+                templateUrl: 'scripts/search/views/search.html',
+                controller: 'SearchCtrl'
             }
         });
         
