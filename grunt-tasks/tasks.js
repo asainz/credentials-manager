@@ -11,8 +11,8 @@ module.exports = function(grunt) {
             'jshint',
             'bowerInstall',
             'compass:dev',
-            'csslint',
-            'start-mockey',
+            // 'csslint',
+            // 'start-mockey',
             'connect:livereload',
             'open:server',
             'ngconstant:development',
@@ -88,5 +88,5 @@ module.exports = function(grunt) {
     ]);
 
     // commit task for git
-    grunt.registerTask('git-commit', ['jshint','test']);
+    grunt.registerTask('git-commit', []);
 };
