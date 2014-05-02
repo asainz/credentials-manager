@@ -1,0 +1,20 @@
+%module{
+    @include clearfix();
+    
+    width: 100%;
+
+    border-width: 2px;
+    border-style: solid;
+
+    &> section{
+        float: left;
+    }
+
+    &> aside{
+        float: right;
+    }
+}
+
+%action-module{
+    @extend %module;
+}

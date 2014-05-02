@@ -1,12 +1,51 @@
 {
-    "feature": [],
-    "controller": [],
-    "filter": [],
-    "directive": [],
-    "service": [],
-    "factory": [],
-    "provider": [],
-    "value": [],
-    "constant": [],
-    "view": []
+  "feature": [
+    {
+      "name": "Dashboard",
+      "value": "dashboard"
+    },
+    {
+      "name": "Static",
+      "value": "static"
+    }
+  ],
+  "controller": [
+    {
+      "name": "Dashboard",
+      "value": "dashboard"
+    },
+    {
+      "name": "Static",
+      "value": "static"
+    }
+  ],
+  "filter": [],
+  "directive": [],
+  "service": [],
+  "factory": [],
+  "provider": [],
+  "value": [],
+  "constant": [],
+  "view": [
+    {
+      "name": "Dashboard",
+      "value": "dashboard"
+    },
+    {
+      "name": "Static",
+      "value": "static"
+    },
+    {
+      "name": "Dashboard action module",
+      "value": "dashboard-action-module"
+    },
+    {
+      "name": "Search module",
+      "value": "search-module"
+    },
+    {
+      "name": "Result module",
+      "value": "result-module"
+    }
+  ]
 }
